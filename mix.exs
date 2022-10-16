@@ -12,14 +12,15 @@ defmodule DesigningDataIntensiveApplications.MixProject do
       # Docs
       name: "Designing Data Intensive Applications",
       source_url: "https://github.com/oliveigah/BN-designing-data-intensive-applications",
-      homepage_url: "https://techfromscratch.com.br/book-notes/designing-data-intensive-applications",
+      homepage_url:
+        "https://techfromscratch.com.br/book-notes/designing-data-intensive-applications",
       docs: [
         # The main page in the docs
         main: "chapter_1",
-        logo: "logo.png",
         extras: [
-          "./lib/chapters/chapter_1/notes.md",
+          "./lib/chapters/chapter_1.md"
         ]
+      ]
     ]
   end
 
